@@ -1,8 +1,8 @@
-package org.project.template.springboot.service;
+package org.after.sleep.shopping.test.service;
 
-import org.after.sleep.shopping.api.service.TestUserService;
+import org.after.sleep.shopping.service.TestUserService;
+import org.after.sleep.shopping.test.BaseSpringBootJunitTest;
 import org.junit.Test;
-import org.project.template.springboot.BaseSpringBootJunitTest;
 
 import javax.annotation.Resource;
 

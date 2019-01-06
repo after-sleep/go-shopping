@@ -1,6 +1,6 @@
-package org.after.sleep.shopping.api.controller;
+package org.after.sleep.shopping.web.api.controller;
 
-import org.after.sleep.shopping.api.service.TestUserService;
+import org.after.sleep.shopping.service.TestUserService;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -22,8 +22,8 @@ public class TestController {
         return testUserService.add(userName);
     }
 
-    @RequestMapping("/queryList")
-    public Object queryList() {
+    @RequestMapping("/query")
+    public Object query() {
         return testUserService.selectList();
     }
 }

@@ -16,7 +16,7 @@
 
         <dependency>
             <groupId>org.after-sleep</groupId>
-            <artifactId>go-shopping-common</artifactId>
+            <artifactId>go-shopping-service</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 

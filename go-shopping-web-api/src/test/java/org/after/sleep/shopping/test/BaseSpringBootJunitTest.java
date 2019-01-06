@@ -1,4 +1,4 @@
-package org.project.template.springboot;
+package org.after.sleep.shopping.test;
 
 import org.after.sleep.shopping.SpringBootMainWar;
 import org.junit.runner.RunWith;

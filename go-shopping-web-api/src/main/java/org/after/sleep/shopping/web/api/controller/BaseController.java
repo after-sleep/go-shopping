@@ -1,4 +1,4 @@
-package org.after.sleep.shopping.api.controller;
+package org.after.sleep.shopping.web.api.controller;
 
 import com.alibaba.fastjson.JSON;
 import org.after.sleep.shopping.common.config.PropertyConfig;

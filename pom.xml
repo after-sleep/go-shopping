@@ -11,6 +11,7 @@
     <modules>
         <module>go-shopping-web-api</module>
         <module>go-shopping-common</module>
+        <module>go-shopping-service</module>
     </modules>
 
     <name>go-shopping</name>
