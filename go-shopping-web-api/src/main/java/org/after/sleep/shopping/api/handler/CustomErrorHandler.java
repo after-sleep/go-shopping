@@ -1,4 +1,4 @@
-package org.after.sleep.shooping.web.api.handler;
+package org.after.sleep.shopping.api.handler;
 
 import org.after.sleep.shopping.common.response.BaseResponse;
 import org.springframework.boot.web.servlet.error.ErrorController;

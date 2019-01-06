@@ -1,4 +1,4 @@
-package org.after.sleep.shooping.web.api.config;
+package org.after.sleep.shopping.api.config;
 
 import org.after.sleep.shopping.common.config.BaseWebConfig;
 import org.springframework.boot.autoconfigure.http.HttpMessageConverters;

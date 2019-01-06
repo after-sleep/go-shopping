@@ -1,4 +1,4 @@
-package org.after.sleep.shooping.web.api.handler;
+package org.after.sleep.shopping.api.handler;
 
 import org.after.sleep.shopping.common.config.PropertyConfig;
 import org.after.sleep.shopping.common.constant.WebConstant;

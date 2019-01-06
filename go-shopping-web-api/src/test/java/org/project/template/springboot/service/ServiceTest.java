@@ -1,6 +1,6 @@
 package org.project.template.springboot.service;
 
-import org.after.sleep.shooping.web.api.service.TestUserService;
+import org.after.sleep.shopping.api.service.TestUserService;
 import org.junit.Test;
 import org.project.template.springboot.BaseSpringBootJunitTest;
 

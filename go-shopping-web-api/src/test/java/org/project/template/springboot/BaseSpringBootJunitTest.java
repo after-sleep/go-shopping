@@ -1,6 +1,6 @@
 package org.project.template.springboot;
 
-import org.after.sleep.shooping.SpringBootMainWar;
+import org.after.sleep.shopping.SpringBootMainWar;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;

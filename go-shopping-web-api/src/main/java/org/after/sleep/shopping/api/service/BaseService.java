@@ -1,4 +1,4 @@
-package org.after.sleep.shooping.web.api.service;
+package org.after.sleep.shopping.api.service;
 
 import org.after.sleep.shopping.common.config.PropertyConfig;
 import org.slf4j.Logger;

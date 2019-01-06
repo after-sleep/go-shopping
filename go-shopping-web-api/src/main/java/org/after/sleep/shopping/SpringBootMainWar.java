@@ -1,4 +1,4 @@
-package org.after.sleep.shooping;
+package org.after.sleep.shopping;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;

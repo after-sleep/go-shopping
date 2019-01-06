@@ -1,6 +1,6 @@
-package org.after.sleep.shooping.web.api.controller;
+package org.after.sleep.shopping.api.controller;
 
-import org.after.sleep.shooping.web.api.service.TestUserService;
+import org.after.sleep.shopping.api.service.TestUserService;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
