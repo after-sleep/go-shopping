@@ -1,6 +1,7 @@
 package org.after.sleep.shopping.test.service;
 
-import org.after.sleep.shopping.service.TestUserService;
+import org.after.sleep.shopping.common.domain.UserB;
+import org.after.sleep.shopping.service.BizUserBService;
 import org.after.sleep.shopping.test.BaseSpringBootJunitTest;
 import org.junit.Test;
 
@@ -13,15 +14,11 @@ import javax.annotation.Resource;
 public class ServiceTest extends BaseSpringBootJunitTest {
 
     @Resource
-    private TestUserService testUserService;
+    private BizUserBService bizUserBService;
 
     @Test
-    public void add() {
-        System.out.println(testUserService.add("t"));
-    }
-
-    @Test
-    public void get() {
-        System.out.println(testUserService.selectList());
+    public void test() {
+        UserB t = bizUserBService.getUserBByUserName("t");
+        System.out.println(t);
     }
 }
