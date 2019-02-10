@@ -1,6 +1,8 @@
 package org.after.sleep.shopping.common.domain;
 
 
+import org.after.sleep.shopping.common.request.BaseRequest;
+
 public class BaseCriteria {
 
     protected String orderByClause;
@@ -11,6 +13,11 @@ public class BaseCriteria {
     private int limit;
 
     protected boolean distinct;
+
+    public void bindPageParam(BaseRequest br) {
+        this.setPageNo(br.getPageNo());
+        this.setLimit(br.getPageSize());
+    }
 
     public void noLimit() {
         this.limit = 10000;

@@ -1,5 +1,6 @@
 package org.after.sleep.shopping.common.vo;
 
+import com.alibaba.fastjson.JSON;
 import lombok.Data;
 
 import java.io.Serializable;
@@ -46,5 +47,10 @@ public class PageList<T> implements Serializable {
 
     public List<T> getList() {
         return list == null ? new ArrayList<>() : list;
+    }
+
+    @Override
+    public String toString() {
+        return JSON.toJSONString(this);
     }
 }
